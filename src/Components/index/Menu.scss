@@ -1,0 +1,40 @@
+.side-menu {
+    background: #ffffff;
+    position: absolute;
+    width: 450px;
+    height: 100%;
+    padding: 20px 33px;
+    top: 0;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.logo {
+    height: 54px;
+    width: 233px;
+}
+
+.btn-menu {
+    background: #ff00ff;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0 5px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    color:#000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    li {
+        background-image: url('../../Assets/images/Index/menu/button.png');
+        background-repeat: no-repeat;
+        background-position: calc(100% - 10px) 0;
+    }
+}

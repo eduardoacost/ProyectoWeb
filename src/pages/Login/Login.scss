@@ -1,0 +1,78 @@
+.content-login {
+    background-image: url("../../Assets/Inicio/chorreado\ solo\ blanco\ 1.png");
+    background-repeat: no-repeat;
+    position: cover;
+    width: 1437px;
+    height: 778px;
+    left: 0px;
+    top: -198px;
+   
+}
+.logo-login{
+    position: absolute;
+    width: 264px;
+    height: 55px;
+    left: 156px;
+    top: 267px;
+}
+.frame1{
+    position: absolute;
+    width: 920px;
+    height: 630px;
+    left: 516px;
+    top: 254px;
+}
+.frame2{
+    position: absolute;
+    width: 93px;
+    height: 103px;
+    left: 150px;
+    top: 406px;
+
+}
+.frame3{
+    position: absolute;
+    width: 152px;
+    height: 96px;
+    left: 309px;
+    top: 408px;
+}
+.email{
+    position: absolute;
+    width: 302px;
+    height: 56px;
+    left: 151px;
+    top: 557px;
+    border-radius: 10px;
+
+    
+    &:focus {
+        background: #BC8AED;
+        
+        //border-color: #2c0544;
+        //box-shadow: 0 0 0 0.25rem rgba(80, 3, 128, 0.25);
+    }
+}
+.contraseña{
+    position: absolute;
+    width: 302px;
+    height: 100px;
+    left: 151px;
+    top: 632px;
+
+   
+    border-radius: 10px;
+}
+.btn-login {
+    background: #ff00ff;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 0 5px;
+    position: absolute;
+    width: 133px;
+    height: 36px;
+    left: 236px;
+    top: 720px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
