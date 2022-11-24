@@ -6,6 +6,7 @@ import { Inicio } from '../../pages/Inicio/Inicio'
 import { Servicios } from '../../pages/Servicios/Servicios'
 import { Sobrenosotros } from '../../pages/Sobrenosotros/Sobrenosotros'
 import { Login } from '../../pages/Login/Login'
+import { Carrito } from '../../pages/Productoscarrito/Carrito'
 
 export const NavComponent = () => {
   return (
@@ -16,6 +17,7 @@ export const NavComponent = () => {
         <Route path='/Sobrenosotros' element={<Sobrenosotros/>}/>
         <Route path='/Contactanos' element={<Contactenos/>}/>
         <Route path='/Login' element={<Login/>}/>
+        <Route path='/carrito' element={<Carrito/>}/>
     </Routes>
   )
 }

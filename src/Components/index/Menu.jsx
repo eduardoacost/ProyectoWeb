@@ -58,6 +58,9 @@ export const Menu = ({onToggleMenu}) => {
                     <li className='mb-3'> 
                         <Link to='Contactanos'>Contactenos</Link> 
                     </li>
+                    <li className='mb-3'> 
+                        <Link to='Carrito'>Carrito</Link> 
+                    </li>
                 </ul>
             </nav>
         </div>
